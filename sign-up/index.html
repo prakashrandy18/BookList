@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign-up-page</title>
+	<link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> 
+
+    
+</head>
+<body class="grey darken-3">
+	<div class="container">
+		<h2 class="align-center"> Sign Up</h2>
+
+		<p class="center-align">It's free and only takes a minute</p>
+
+<form id="form">
+	<div class="form-group">
+		<label for="uname"  class="col-form-label">Username</label>
+		<input type="text" class="col-sm-6 form-control" id="uname" required>
+	</div>
+	<div class="form-group">
+		<label for="email"  class="col-form-label">Email Address</label>
+		<input type="email"   class="col-sm-6 form-control" id="email" required>
+	</div>
+	<div class="form-group">
+		<label for="pwd"  class="col-form-label">Password</label>
+		<input type="Password"  class="form-control col-sm-6" id="pwd"  minlength="8" required>
+	</div>
+	<div class="form-group">
+		<label for="cpwd"  class="col-form-label">Confirm Password</label>
+		<input type="Password"   class=" col-sm-6 form-control" id="cpwd" required> 
+	</div>
+	
+		<button type="submit" class="btn btn-primary" id = "sign" >SignUp</button>
+</form>
+		<p class="center-align"> By clicking the Signup Button, you agree to our<br>
+		<span class="teal-text text-lighten-1" >Terms& conditions, and Privacy Policy</span></p>
+
+	</div>
+
+</body>
+
+<script src="index.js"></script>
+</html>
